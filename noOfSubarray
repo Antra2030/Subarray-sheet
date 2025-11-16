@@ -1,0 +1,6 @@
+a=int(input("N= "))
+n=a*(a+1)//2
+print("generated subarray:",n)
+    
+
+

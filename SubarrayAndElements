@@ -1,0 +1,8 @@
+n=int(input("Enter number: "))
+N=list(map(int,input("Enter element of array:").split()))
+l=len(N)
+for i in range(n):
+    for j in range(i,n):
+        for k in range(i,j+1):
+            print(N[k], end=" ")
+        print()

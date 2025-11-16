@@ -1,0 +1,10 @@
+N=int(input("Enter number:"))
+arr=list(map(int,input("Enter array element:").split()))
+l,r=map(int,input().split())
+l = l-1 #python count from 0 means if l=2 python will read it as 1
+r = r- 1
+sum=0
+for i in range(l,r+1):
+    sum+=arr[i]
+print(sum,end=" ")
+print()
